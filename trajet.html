@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Communaut'Air</title>
+
+    <!--    Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--Fontawesom-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!--Animated CSS-->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!--Bootstrap Carousel-->
+    <link type="text/css" rel="stylesheet" href="css/carousel.css" />
+
+    <link rel="stylesheet" href="css/isotope/style.css" />
+
+    <!--Main Stylesheet-->
+    <link href="css/style.css" rel="stylesheet" />
+    <!--Responsive Framework-->
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target="#header">
+    <!--Start Hedaer Section-->
+    <section id="header">
+      <div class="header-area">
+      
+        <!--End of top header-->
+        <div
+          class="header_menu text-center"
+          data-spy="affix"
+          data-offset-top="50"
+          id="nav"
+        >
+          <div class="container">
+            <nav class="navbar navbar-default zero_mp">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand custom_navbar-brand" href="#"
+                  ><img src="img/monLogo.png" alt=""
+                /></a>
+              </div>
+              <!--End of navbar-header-->
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div
+                class="collapse navbar-collapse zero_mp"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav navbar-right main_menu">
+                  <li>
+                    <a href="index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li><a href="about.html">about</a></li>
+                  
+                  <li class="active"><a href="profil.html">profil</a></li>
+                  
+                  <li><a href="connexion.html">connexion</a></li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+            <!--End of nav-->
+          </div>
+          <!--End of container-->
+        </div>
+        <!--End of header menu-->
+      </div>
+      <!--end of header area-->
+    </section>
+    <!--End of Hedaer Section-->
+   
+    <!--Scroll to top-->
+    <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+    <!--End of Scroll to top-->
+    <!-- Sidebar/menu -->
+    <nav
+      class="w3-sidebar w3-collapse w3-white w3-animate-left"
+      style="z-index: 3; width: 300px"
+      id="mySidebar"
+    >
+      <br />
+      <div class="w3-container w3-row">
+        <div class="w3-col s4">
+          <img
+            src="img/avatar2.png"
+            class="w3-circle w3-margin-right"
+            style="width: 46px"
+          />
+        </div>
+        <div class="w3-col s8 w3-bar">
+          <span>Bienvenue, <strong>Mike</strong></span
+          ><br />
+          <a href="#" class="w3-bar-item w3-button"
+            ><i class="fa fa-envelope"></i
+          ></a>
+          <a href="#" class="w3-bar-item w3-button"
+            ><i class="fa fa-user"></i
+          ></a>
+          <a href="#" class="w3-bar-item w3-button"
+            ><i class="fa fa-cog"></i
+          ></a>
+        </div>
+      </div>
+      <hr />
+      <div class="w3-container">
+        <h5>Tableau de bord</h5>
+      </div>
+      <div class="w3-bar-block">
+        <a
+          href="#"
+          class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
+          onclick="w3_close()"
+          title="close menu"
+          ><i class="fa fa-remove fa-fw"></i>  Close Menu</a
+        >
+        <a href="profil.html" class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-users fa-fw"></i>  Mes statistiques</a
+        >
+        <a href="jardin.html" class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-eye fa-fw"></i>  Mon jardin</a
+        >
+        <a
+          href="trajet.html"
+          class="w3-bar-item w3-button w3-padding w3-blue"
+          ><i class="fa fa-users fa-fw"></i>  Ajouter un trajet</a
+        >
+        <a href="#" class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-bullseye fa-fw"></i>  Forum</a
+        >
+        <a href="defis.html" class="w3-bar-item w3-button w3-padding"
+          ><i class="fa fa-diamond fa-fw"></i>  Défis</a
+        >
+      </div>
+    </nav>
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()"
+      style="cursor: pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left: 300px; margin-top: 43px">
+      <!-- Start of counter-->
+      <!--end of counter -->
+      <!-- Header -->
+      <div class="w3-panel">
+        <div class="w3-row-padding" style="margin: 0 -16px">
+          <div class="w3-third">
+            <h5>Trajet</h5>
+            <img
+              src="img/map.png"
+              style="width: 100%"
+              alt="Google Regional Map"
+            />
+          </div>
+          <div class="w3-twothird">
+            <h5>Entrer un trajet</h5>
+            <div>
+              <div class="form-group">
+                <div class="col-sm-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Adresse de départ"
+                  />
+                </div>
+                <div class="col-sm-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    placeholder="Adresse d'arrivée"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-6">
+                  <select class="form-control">
+                    <option>Velo</option>
+                    <option>A pied</option>
+                    <option>Bus/Tram</option>
+                    <option>Voiture</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <a class="btn custom-btn" href="#">Calculer itinéraire</a>
+      </div>
+      <hr />
+      <div class="w3-container">
+        <h5>Meilleur moyen de transport (Temps/écologie)</h5>
+        <p>Velo</p>
+        <div class="w3-grey">
+          <div
+            class="w3-container w3-center w3-padding w3-green"
+            style="width: 2%"
+          >
+            2%
+          </div>
+        </div>
+        <p>Tram</p>
+        <div class="w3-grey">
+          <div
+            class="w3-container w3-center w3-padding w3-orange"
+            style="width: 10%"
+          >
+            10%
+          </div>
+        </div>
+        <p>Voiture</p>
+        <div class="w3-grey">
+          <div
+            class="w3-container w3-center w3-padding w3-red"
+            style="width: 75%"
+          >
+            75%
+          </div>
+        </div>
+      </div>
+      <hr />
+      <br />
+      <!-- End page content -->
+    </div>
+    <script>
+      // Get the Sidebar
+      var mySidebar = document.getElementById("mySidebar");
+      // Get the DIV with overlay effect
+      var overlayBg = document.getElementById("myOverlay");
+      // Toggle between showing and hiding the sidebar, and add overlay effect
+      function w3_open() {
+        if (mySidebar.style.display === "block") {
+          mySidebar.style.display = "none";
+          overlayBg.style.display = "none";
+        } else {
+          mySidebar.style.display = "block";
+          overlayBg.style.display = "block";
+        }
+      }
+      // Close the sidebar with the close button
+      function w3_close() {
+        mySidebar.style.display = "none";
+        overlayBg.style.display = "none";
+      }
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>-->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <!--Counter UP Waypoint-->
+    <script src="js/waypoints.min.js"></script>
+    <!--Counter UP-->
+    <script src="js/jquery.counterup.min.js"></script>
+    <script>
+      //for counter up
+      $(".counter").counterUp({
+        delay: 10,
+        time: 1000,
+      });
+    </script>
+    <!--Gmaps-->
+    <script src="js/gmaps.min.js"></script>
+    <script type="text/javascript">
+      var map;
+      $(document).ready(function () {
+        map = new GMaps({
+          el: "#map",
+          lat: 23.6911078,
+          lng: 90.5112799,
+          zoomControl: true,
+          zoomControlOpt: {
+            style: "SMALL",
+            position: "LEFT_BOTTOM",
+          },
+          panControl: false,
+          streetViewControl: false,
+          mapTypeControl: false,
+          overviewMapControl: false,
+          scrollwheel: false,
+        });
+        map.addMarker({
+          lat: 23.6911078,
+          lng: 90.5112799,
+          title: "Office",
+          details: {
+            database_id: 42,
+            author: "Foysal",
+          },
+          click: function (e) {
+            if (console.log) console.log(e);
+            alert("You clicked in this marker");
+          },
+          mouseover: function (e) {
+            if (console.log) console.log(e);
+          },
+        });
+      });
+    </script>
+    <!--Google Maps API-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjxvF9oTfcziZWw--3phPVx1ztAsyhXL4"></script>
+    <!--Isotope-->
+    <script src="js/isotope/min/scripts-min.js"></script>
+    <script src="js/isotope/cells-by-row.js"></script>
+    <script src="js/isotope/isotope.pkgd.min.js"></script>
+    <script src="js/isotope/packery-mode.pkgd.min.js"></script>
+    <script src="js/isotope/scripts.js"></script>
+    <!--Back To Top-->
+    <script src="js/backtotop.js"></script>
+    <!--JQuery Click to Scroll down with Menu-->
+    <script src="js/jquery.localScroll.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <!--WOW With Animation-->
+    <script src="js/wow.min.js"></script>
+    <!--WOW Activated-->
+    <script>
+      new WOW().init();
+    </script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
